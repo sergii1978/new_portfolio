@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-display: swap;
+  overflow-wrap: break-word;
+
+  color: #1B1A17;
+}
+
+.container {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+a:focus, a:link, a:active {
+  outline: none;
+}
+
+
+/* header */
+.page_header {
+  padding-top: 5px;
+  background-color: blue;
+}
+
+h1 {
+  color: yellow;
+}
+
+/* main */
+main {
+  background-color: yellow;
+}
+
+/* section task */
+
+.task_list {
+  list-style-type: decimal;
+}
+
+
+/* section victory */
+.victory_slogan {
+  color: blue;
+}
+
+.victory_list {
+  list-style-type: circle;
+}
+
+/* footer */
+footer {
+  color: #ffffff;
+  background-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.legacy {
+  color: yellow;
+}
