@@ -81,7 +81,26 @@ main {
 }
 
 .victory_list {
-  list-style-type: circle;
+  list-style-type: none;
+}
+
+.victory_list_item {
+  padding-left: 25px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.victory_list_item:nth-child(1) {
+  background-image: url("../img/svg/candle.svg");
+}
+
+.victory_list_item:nth-child(2) {
+  background-image: url("../img/svg/champagne.svg");
+}
+
+.victory_list_item:nth-child(3) {
+  background-image: url("../img/svg/bag.svg");
 }
 
 /* footer */
@@ -92,6 +111,10 @@ footer {
   padding-bottom: 5px;
 }
 
-.legacy {
+address {
+  font-style: normal;
+}
+
+.legacy_link_email {
   color: yellow;
 }
